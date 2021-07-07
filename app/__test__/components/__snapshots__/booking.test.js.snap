@@ -1,0 +1,246 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Booking component Should return booking snapshot 1`] = `
+<View
+  accessibilityIgnoresInvertColors={true}
+  style={
+    Object {
+      "flex": 1,
+      "justifyContent": "center",
+      "resizeMode": "cover",
+    }
+  }
+>
+  <Image
+    source={1}
+    style={
+      Array [
+        Object {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        },
+        Object {
+          "height": undefined,
+          "width": undefined,
+        },
+        undefined,
+      ]
+    }
+  />
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "alignSelf": "center",
+        "flex": 1,
+        "justifyContent": "center",
+        "marginTop": 22,
+      }
+    }
+  >
+    <Modal
+      animationType="slide"
+      hardwareAccelerated={false}
+      onRequestClose={[Function]}
+      transparent={true}
+      visible={true}
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "alignSelf": "center",
+            "flex": 1,
+            "justifyContent": "center",
+            "marginTop": 22,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "wheat",
+              "borderRadius": 20,
+              "display": "flex",
+              "elevation": 5,
+              "flexDirection": "column",
+              "margin": 20,
+              "padding": 35,
+              "shadowColor": "#000",
+              "shadowOffset": Object {
+                "height": 2,
+                "width": 0,
+              },
+              "shadowOpacity": 0.25,
+              "shadowRadius": 4,
+            }
+          }
+        >
+          <Image
+            source={
+              Object {
+                "uri": undefined,
+              }
+            }
+            style={
+              Object {
+                "height": 300,
+                "width": 240,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "marginBottom": 10,
+                  "marginRight": 10,
+                }
+              }
+            >
+              Name:
+            </Text>
+            <Text
+              style={
+                Object {
+                  "marginBottom": 15,
+                  "textAlign": "center",
+                }
+              }
+            />
+          </View>
+          <View
+            style={
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "marginBottom": 10,
+                  "marginRight": 10,
+                }
+              }
+            >
+              Date:
+            </Text>
+            <Text
+              style={
+                Object {
+                  "marginBottom": 15,
+                  "textAlign": "center",
+                }
+              }
+            />
+          </View>
+          <View
+            style={
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "marginBottom": 10,
+                  "marginRight": 10,
+                }
+              }
+            >
+              Time:
+            </Text>
+            <Text
+              style={
+                Object {
+                  "marginBottom": 15,
+                  "textAlign": "center",
+                }
+              }
+            />
+          </View>
+          <View
+            style={
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "marginBottom": 10,
+                  "marginRight": 10,
+                }
+              }
+            >
+              Seats:
+            </Text>
+            <Text
+              style={
+                Object {
+                  "marginBottom": 15,
+                  "textAlign": "center",
+                }
+              }
+            />
+          </View>
+          <View
+            accessible={true}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Array [
+                Object {
+                  "borderRadius": 20,
+                  "elevation": 2,
+                  "padding": 10,
+                },
+                Object {
+                  "backgroundColor": "#2196F3",
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "fontWeight": "bold",
+                  "textAlign": "center",
+                }
+              }
+            >
+              Submit
+            </Text>
+          </View>
+        </View>
+      </View>
+    </Modal>
+  </View>
+</View>
+`;

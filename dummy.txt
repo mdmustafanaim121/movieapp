@@ -1,0 +1,13 @@
+<View style={styles.containter}>
+                <SectionList
+                sections={Data}
+                renderItem={({item})=><Item title={item}/>}
+                keyExtractor={({item,key})=>item+key}
+                renderSectionHeader={
+                    ({section:{title}}) =>(
+                        <Text style={styles.header}>{title}</Text>
+                    )
+                }
+                ><Button  title="Details"/></SectionList>
+                <Button  title="Demo"/>
+                 </View>
