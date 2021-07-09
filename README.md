@@ -1,3 +1,6 @@
+# A React Native project: 
+  Tested on Android and Web browsers!  
+
 # Movieapp
 
 Please install all the dependencies and packages using npm install.
